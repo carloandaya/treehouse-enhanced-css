@@ -1,4 +1,8 @@
 /* Web Fonts ----------------------- */
+@font-face {
+  font-family: 'Abolition Regular';
+  src: url('../fonts/abolition-regular-webfont.woff') format('woff');
+}
 
 
 /* Base Styles --------------------- */
@@ -7,6 +11,19 @@
 }
 html {
   font-size: 1.25em; /* 20px on most screens */
+}
+body {
+  font-family: "Verdana", Geneva, sans-serif;
+}
+h1, h2 {
+  font-family: 'Abolition Regular';
+  font-weight: normal;
+}
+h1 {
+  font-size: 4rem;
+}
+h2 {
+  font-size: 2.5rem;
 }
 img {
   width: 100%; /* responsive images */
